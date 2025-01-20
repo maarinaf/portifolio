@@ -341,3 +341,72 @@ h1 {
         padding: 2rem;
     }
 }
+
+/* Seção Sobre */
+.about-section {
+    padding: 6rem 4rem;
+    background-color: #f8fafc;
+    position: relative;
+    overflow: hidden;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.about-text p {
+    color: var(--text-color);
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+/* Adicionar gradientes sutis no fundo */
+.about-section::before {
+    content: '';
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(43, 108, 176, 0.05), transparent);
+    top: -200px;
+    right: -200px;
+}
+
+.about-section::after {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, transparent, rgba(43, 108, 176, 0.05));
+    bottom: -150px;
+    left: -150px;
+}
+
+/* Ajustar responsividade */
+@media (max-width: 768px) {
+    .about-section {
+        padding: 4rem 2rem;
+    }
+
+    .about-text p {
+        font-size: 1rem;
+    }
+}
