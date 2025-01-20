@@ -46,7 +46,7 @@ O site é totalmente responsivo e se adapta aos seguintes breakpoints:
 
 ## 📬 Contato
 
-- LinkedIn: [seu-linkedin](https://www.linkedin.com/in/seu-perfil)
+- LinkedIn: [Marina Fernandes](https://www.linkedin.com/in/marina-fernandes-017942336/)
 - GitHub: [maarinaf](https://github.com/maarinaf)
 
 ---
